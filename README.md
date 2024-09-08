@@ -9,5 +9,7 @@ When a user logs into a web app, instead of storing their session on the server,
 A JWT consists of three parts:
 
 Header: Contains metadata, such as the token type and the algorithm used for signing.
+
 Payload: Holds the actual data (claims), like the user's ID or roles (this is where user info is stored).
+
 Signature: Ensures the token's authenticity and that it hasn't been tampered with, using a secret key known to the server.
